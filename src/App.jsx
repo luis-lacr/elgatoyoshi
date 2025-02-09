@@ -1,6 +1,9 @@
 
 import './App.css'
 import { useState } from 'react';
+import './styleSelection.css';
+
+
 function Square({value, onSquareClick}){
   return (<button className='square' onClick={onSquareClick}>
     {value}
