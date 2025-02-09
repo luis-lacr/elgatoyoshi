@@ -38,6 +38,8 @@ export default  function Board(){
     status = "ganador: " + winner;
   }else{
     status = "siguiente jugador: " + (xIsNext ? "X" : "O");
+    
+
   }
 
   return (
